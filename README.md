@@ -22,9 +22,9 @@
 
 ## 🔧 Data Pipeline
 - **采集**: Phone video (4K) + RealSense D435i RGB-D stream
-- **标定**: Intrinsic calibration + World-to-pixel projection
-- **对齐**: RGB-D temporal-spatial alignment
-- **重建**: COLMAP init → 3DGS training / SLAM tracking
+- **标定**: Camera intrinsic/extrinsic calibration & world-to-image projection
+- **对齐**: RGB-D spatiotemporal registration and synchronization
+- **重建**: SfM initialization (COLMAP) → offline 3DGS optimization / real-time SLAM tracking
 
 ## 📊 Tech Stack
-RealSense D435i | OpenCV | COLMAP | PyTorch | Hierarchical3DGS | MemGS | LEGO-SLAM | ROS/ROS2 | Ubuntu
+3DGS | RealSense D435i | OpenCV | COLMAP | PyTorch | Hierarchical3DGS | MemGS | LEGO-SLAM | ROS/ROS2 | Ubuntu
