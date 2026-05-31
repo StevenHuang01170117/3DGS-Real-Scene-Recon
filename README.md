@@ -1,7 +1,7 @@
 # 3DGS Real Scene Reconstruction
 
-&gt; 基于手机视频与 RealSense D435i 的多源真实场景 3DGS 重建实践。
-&gt; 覆盖学院楼层、商场、车辆周围等多尺度场景，用于人形机器人仿真环境部署。
+> 基于手机视频与 RealSense D435i 的多源真实场景 3DGS 重建实践。
+> 覆盖学院楼层、商场、车辆周围等多尺度场景，用于人形机器人仿真环境部署。
 
 ## 📹 Reconstruction Demos
 
